@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Multiplayer Nice Research Tab Patch</name>
+	<author>Keullaeseu</author>
+	<packageId>keullaeseu.mp.Andromeda.NiceResearchTab</packageId>
+	<modVersion>1.0.0.0</modVersion>
+	<url>https://github.com/Keullaeseu/Multiplayer-Nice-Research-Tab-Patch</url>
+	<description>Provides multiplayer support for the Nice Research Tab mod by Andromeda.</description>
+
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+
+	<loadAfter>
+		<li>rwmt.Multiplayer</li>
+		<li>andromeda.milkyway</li>
+		<li>keullaeseu.mp.Andromeda.MilkyWay</li>
+		<li>Andromeda.NiceResearchTab</li>
+	</loadAfter>
+
+	<modDependencies>
+		<li>
+			<packageId>rwmt.Multiplayer</packageId>
+			<displayName>Multiplayer</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2606448745</steamWorkshopUrl>
+			<downloadUrl>https://github.com/rwmt/Multiplayer/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>andromeda.milkyway</packageId>
+			<displayName>MilkyWay</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3773448562</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>keullaeseu.mp.Andromeda.MilkyWay</packageId>
+			<displayName>Multiplayer Milky Way Patch</displayName>
+			<downloadUrl>https://github.com/Keullaeseu/Multiplayer-Milky-Way-Patch/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>Andromeda.NiceResearchTab</packageId>
+			<displayName>Nice Research Tab</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3773496046</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>
